@@ -13,7 +13,7 @@ import java.util.List;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring/applicationContext.xml")
 public class AccountServiceImplTest {
-
+//这是测试修改的部分
     @Resource(name = "accountService")
     AccountService accountService;
     @Test
